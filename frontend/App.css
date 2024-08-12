@@ -1,0 +1,40 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.home, .flashcard-list, .create-flashcard, .edit-flashcard {
+  margin: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.flashcard {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.flashcard-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.flashcard-content h3, .flashcard-content p {
+  margin: 0;
+}
