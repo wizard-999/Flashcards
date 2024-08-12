@@ -1,0 +1,72 @@
+.create-flashcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e3c72, #2a5298); /* Cooler, professional blue tones */
+  color: #f0f0f0; /* Light grey for readability */
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.create-flashcard h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); /* Slightly more pronounced shadow for emphasis */
+}
+
+.create-flashcard form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.create-flashcard label {
+  width: 100%;
+  margin-bottom: 15px;
+  color: #f0f0f0; /* Consistent light grey */
+  font-weight: bold;
+}
+
+.create-flashcard input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1); /* Slightly transparent white */
+  color: #f0f0f0; /* Consistent light grey */
+  font-size: 1.2em;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+.create-flashcard input:focus {
+  outline: none;
+  box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.create-flashcard button {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  color: #f0f0f0;
+  background: linear-gradient(45deg, #00796b, #48a999); /* Calming green tones for action buttons */
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.create-flashcard button:hover {
+  background: linear-gradient(45deg, #004d40, #00796b); /* Slightly darker green on hover */
+  transform: scale(1.05);
+}
+
+.create-flashcard button:active {
+  transform: scale(0.95);
+}
